@@ -7,8 +7,10 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div>
+    <div style={{background: '#141414'}}>
       <Menu />
+      <Carousel category={dadosIniciais.categorias[3]} />
+      <Carousel category={dadosIniciais.categorias[4]} />
       <Footer />
     </div>
   );
