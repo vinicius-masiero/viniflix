@@ -85,7 +85,7 @@ export const BannerMainContainer = styled.section`
     left: 0;
     right: 0;
     margin: auto;
-    height: 20%;
+    height: 15%;
   }
 
   &:before {

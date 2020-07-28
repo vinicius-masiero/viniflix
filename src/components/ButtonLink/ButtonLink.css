@@ -17,8 +17,8 @@
   opacity: .5;
 }
 
-@media (max-width: 800px) {
-  a.ButtonLink {
+@media (max-width: 767px) {
+  .ButtonLink {
     position: fixed;
     left: 0;
     right: 0;
