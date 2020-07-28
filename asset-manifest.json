@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/viniflix/static/css/main.691a232e.chunk.css",
-    "main.js": "/viniflix/static/js/main.b9e8b13d.chunk.js",
-    "main.js.map": "/viniflix/static/js/main.b9e8b13d.chunk.js.map",
+    "main.css": "/viniflix/static/css/main.ee225b9b.chunk.css",
+    "main.js": "/viniflix/static/js/main.9f18692e.chunk.js",
+    "main.js.map": "/viniflix/static/js/main.9f18692e.chunk.js.map",
     "runtime-main.js": "/viniflix/static/js/runtime-main.cdd4fe46.js",
     "runtime-main.js.map": "/viniflix/static/js/runtime-main.cdd4fe46.js.map",
-    "static/js/2.f7836315.chunk.js": "/viniflix/static/js/2.f7836315.chunk.js",
-    "static/js/2.f7836315.chunk.js.map": "/viniflix/static/js/2.f7836315.chunk.js.map",
+    "static/js/2.e71cdb33.chunk.js": "/viniflix/static/js/2.e71cdb33.chunk.js",
+    "static/js/2.e71cdb33.chunk.js.map": "/viniflix/static/js/2.e71cdb33.chunk.js.map",
     "index.html": "/viniflix/index.html",
-    "precache-manifest.fb7315ddc784b67e9505669d5631e08f.js": "/viniflix/precache-manifest.fb7315ddc784b67e9505669d5631e08f.js",
+    "precache-manifest.86d15dfacda4743b39ccc0b1cbdf0ea2.js": "/viniflix/precache-manifest.86d15dfacda4743b39ccc0b1cbdf0ea2.js",
     "service-worker.js": "/viniflix/service-worker.js",
-    "static/css/main.691a232e.chunk.css.map": "/viniflix/static/css/main.691a232e.chunk.css.map",
-    "static/js/2.f7836315.chunk.js.LICENSE.txt": "/viniflix/static/js/2.f7836315.chunk.js.LICENSE.txt",
+    "static/css/main.ee225b9b.chunk.css.map": "/viniflix/static/css/main.ee225b9b.chunk.css.map",
+    "static/js/2.e71cdb33.chunk.js.LICENSE.txt": "/viniflix/static/js/2.e71cdb33.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/viniflix/static/media/logo.978a6056.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cdd4fe46.js",
-    "static/js/2.f7836315.chunk.js",
-    "static/css/main.691a232e.chunk.css",
-    "static/js/main.b9e8b13d.chunk.js"
+    "static/js/2.e71cdb33.chunk.js",
+    "static/css/main.ee225b9b.chunk.css",
+    "static/js/main.9f18692e.chunk.js"
   ]
 }
