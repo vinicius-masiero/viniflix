@@ -4,7 +4,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './index.css';
 import Home from './pages/Home/Home';
 import CadastroVideo from './pages/cadastro/Video/Video';
-import CadastroCategoria from './pages/cadastro/Categoria/Categoria';
+import CadastroCategory from './pages/cadastro/Category/Category';
 
 
 ReactDOM.render(
@@ -12,7 +12,7 @@ ReactDOM.render(
     <Switch>
       <Route path="/viniflix/" component={Home} exact />
       <Route path="/viniflix/cadastro/video" component={CadastroVideo} />
-      <Route path="/viniflix/cadastro/categoria" component={CadastroCategoria} />
+      <Route path="/viniflix/cadastro/categoria" component={CadastroCategory} />
       <Route component={() => (<div>404</div>)} />
     </Switch>
   </BrowserRouter>,
