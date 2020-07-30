@@ -31,7 +31,7 @@ const Categoria = props => {
   }
 
   useEffect(() => {
-    const url = 'http://localhost:8080/categorias';
+    const url = window.location.hostname.includes('localhost') ? 'http://localhost:8080/categorias' : 'https://viniflix.herokuapp.com/categorias';
     fetch(url).then(async (response) => {
       const json = await response.json();
       setCategories([...json]);
