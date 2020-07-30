@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Parent from '../../../components/Parent/Parent';
 import { Link } from 'react-router-dom';
 import FormField from '../../../components/FormField/FormField';
@@ -30,17 +30,29 @@ const Categoria = props => {
     setValues(defaultValues);
   }
 
+  useEffect(() => {
+    const url = 'http://localhost:8080/categorias';
+    fetch(url).then(async (response) => {
+      const json = await response.json();
+      setCategories([...json]);
+    });
+  }, []);
+
   return (
     <Parent>
       <h1>Cadastro de Categoria: {values.name}</h1>
       <form onSubmit={submitHandler}>
-        <FormField type="text" name="name" label="Nome:" value={values.nome} onChange={changeHandler} />
-        <FormField type="text" name="description" label="Descrição:" value={values.description} onChange={changeHandler} />
+        <FormField type="text" name="name" label="Nome:" value={values.name} onChange={changeHandler} />
+        <FormField type="textarea" name="description" label="Descrição:" value={values.description} onChange={changeHandler} />
         <FormField type="color" name="color" label="Cor:" value={values.color} onChange={changeHandler} />
         <button>
           Cadastrar
         </button>
       </form>
+
+      {categories.length === 0 && (
+        <div>Loading...</div>
+      )}
       
       <ul>
         {categories.map((category, index) => {
