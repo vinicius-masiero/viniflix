@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de95a6da4c6cfbd4a71252dd9d72a5b6",
+    "revision": "3ae1e8bc5ee9ec83194e479f2f00a139",
     "url": "/viniflix/index.html"
   },
   {
-    "revision": "6e4c46bf956946a900dc",
+    "revision": "1e91110791fe304d4513",
     "url": "/viniflix/static/css/main.612aa435.chunk.css"
   },
   {
-    "revision": "65b4903332cd65a0c758",
-    "url": "/viniflix/static/js/2.a7edd2c8.chunk.js"
+    "revision": "0a99293e76c2b6cf9588",
+    "url": "/viniflix/static/js/2.f0a7eedf.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/viniflix/static/js/2.a7edd2c8.chunk.js.LICENSE.txt"
+    "url": "/viniflix/static/js/2.f0a7eedf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6e4c46bf956946a900dc",
-    "url": "/viniflix/static/js/main.1fc23673.chunk.js"
+    "revision": "1e91110791fe304d4513",
+    "url": "/viniflix/static/js/main.d22f8df3.chunk.js"
   },
   {
     "revision": "ef1d5f72d54836c3a5aa",
