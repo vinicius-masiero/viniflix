@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/viniflix/static/css/main.612aa435.chunk.css",
-    "main.js": "/viniflix/static/js/main.d22f8df3.chunk.js",
-    "main.js.map": "/viniflix/static/js/main.d22f8df3.chunk.js.map",
+    "main.js": "/viniflix/static/js/main.dd9fd330.chunk.js",
+    "main.js.map": "/viniflix/static/js/main.dd9fd330.chunk.js.map",
     "runtime-main.js": "/viniflix/static/js/runtime-main.cdd4fe46.js",
     "runtime-main.js.map": "/viniflix/static/js/runtime-main.cdd4fe46.js.map",
-    "static/js/2.f0a7eedf.chunk.js": "/viniflix/static/js/2.f0a7eedf.chunk.js",
-    "static/js/2.f0a7eedf.chunk.js.map": "/viniflix/static/js/2.f0a7eedf.chunk.js.map",
+    "static/js/2.a3757a9e.chunk.js": "/viniflix/static/js/2.a3757a9e.chunk.js",
+    "static/js/2.a3757a9e.chunk.js.map": "/viniflix/static/js/2.a3757a9e.chunk.js.map",
     "index.html": "/viniflix/index.html",
-    "precache-manifest.df8116caf2463f97f0b803ef251cbe44.js": "/viniflix/precache-manifest.df8116caf2463f97f0b803ef251cbe44.js",
+    "precache-manifest.e50c2a96c2ff7a02bb9d47856559ef05.js": "/viniflix/precache-manifest.e50c2a96c2ff7a02bb9d47856559ef05.js",
     "service-worker.js": "/viniflix/service-worker.js",
     "static/css/main.612aa435.chunk.css.map": "/viniflix/static/css/main.612aa435.chunk.css.map",
-    "static/js/2.f0a7eedf.chunk.js.LICENSE.txt": "/viniflix/static/js/2.f0a7eedf.chunk.js.LICENSE.txt",
+    "static/js/2.a3757a9e.chunk.js.LICENSE.txt": "/viniflix/static/js/2.a3757a9e.chunk.js.LICENSE.txt",
     "static/media/logo.png": "/viniflix/static/media/logo.978a6056.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cdd4fe46.js",
-    "static/js/2.f0a7eedf.chunk.js",
+    "static/js/2.a3757a9e.chunk.js",
     "static/css/main.612aa435.chunk.css",
-    "static/js/main.d22f8df3.chunk.js"
+    "static/js/main.dd9fd330.chunk.js"
   ]
 }
