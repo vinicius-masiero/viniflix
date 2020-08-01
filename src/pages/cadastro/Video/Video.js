@@ -30,7 +30,7 @@ const Video = props => {
         event.preventDefault();
 
         const categorySave = categories.find((category) => {
-          return category.title === values.title;
+          return category.title === values.category;
         });
 
         apiVideo.createVideo({
