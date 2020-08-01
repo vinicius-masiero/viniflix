@@ -1,16 +1,42 @@
 {
-  "categorias": [
+  "categories": [
     {
       "id": 1,
-      "name": "Categoria 1",
+      "title": "Categoria 1",
       "description": "descrição 1",
       "color": "#7258c2"
     },
     {
       "id": 2,
-      "name": "Categoria 2",
+      "title": "Categoria 2",
       "description": "descrição 2",
       "color": "#7258c2"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "title": "video1",
+      "url": "https://www.youtube.com/watch?v=D4L0OkSrsI8"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "title": "video2",
+      "url": "https://www.youtube.com/watch?v=Y0kSJCEIHQA"
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
+      "title": "video3",
+      "url": "https://www.youtube.com/watch?v=D4L0OkSrsI8"
+    },
+    {
+      "title": "Naughty",
+      "url": "https://www.youtube.com/watch?v=PHp3wWbR9cw",
+      "categoryId": 1,
+      "id": 4
     }
   ]
 }

@@ -2,32 +2,23 @@ import React, { useState, useEffect } from 'react';
 import Parent from '../../../components/Parent/Parent';
 import { Link } from 'react-router-dom';
 import FormField from '../../../components/FormField/FormField';
+import useForm from '../../../hooks/useForm';
 
 const Categoria = props => {
   const defaultValues = {
-    name: '',
+    title: '',
     description: '',
     color: '#7258c2'
   }
 
+  const { changeHandler, values, clearForm } = useForm(defaultValues);
+
   const [categories, setCategories] = useState([]);
-  const [values, setValues] = useState(defaultValues);
-
-  function setValue(key, value) {
-    setValues({
-      ...values,
-      [key]: value,
-    })
-  }
-
-  function changeHandler(event) {
-    setValue(event.target.getAttribute('name'), event.target.value);
-  }
   
   function submitHandler(event) {
     event.preventDefault();
     setCategories([...categories, values]);
-    setValues(defaultValues);
+    clearForm();
   }
 
   useEffect(() => {
@@ -40,9 +31,9 @@ const Categoria = props => {
 
   return (
     <Parent>
-      <h1>Cadastro de Categoria: {values.name}</h1>
+      <h1>Cadastro de Categoria: {values.title}</h1>
       <form onSubmit={submitHandler}>
-        <FormField type="text" name="name" label="Nome:" value={values.name} onChange={changeHandler} />
+        <FormField type="text" name="title" label="Nome:" value={values.title} onChange={changeHandler} />
         <FormField type="textarea" name="description" label="Descrição:" value={values.description} onChange={changeHandler} />
         <FormField type="color" name="color" label="Cor:" value={values.color} onChange={changeHandler} />
         <button>
@@ -57,7 +48,7 @@ const Categoria = props => {
       <ul>
         {categories.map((category, index) => {
           return (
-            <li key={index}>{category.name}</li>
+            <li key={index}>{category.title}</li>
           )
         })}
       </ul>
