@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/viniflix/static/css/main.612aa435.chunk.css",
-    "main.js": "/viniflix/static/js/main.0167494c.chunk.js",
-    "main.js.map": "/viniflix/static/js/main.0167494c.chunk.js.map",
+    "main.js": "/viniflix/static/js/main.78b12526.chunk.js",
+    "main.js.map": "/viniflix/static/js/main.78b12526.chunk.js.map",
     "runtime-main.js": "/viniflix/static/js/runtime-main.cdd4fe46.js",
     "runtime-main.js.map": "/viniflix/static/js/runtime-main.cdd4fe46.js.map",
     "static/js/2.a3757a9e.chunk.js": "/viniflix/static/js/2.a3757a9e.chunk.js",
     "static/js/2.a3757a9e.chunk.js.map": "/viniflix/static/js/2.a3757a9e.chunk.js.map",
     "index.html": "/viniflix/index.html",
-    "precache-manifest.6c1489fbed2d8328ad875e1ebcbb96e4.js": "/viniflix/precache-manifest.6c1489fbed2d8328ad875e1ebcbb96e4.js",
+    "precache-manifest.726e57712d7fc653e16e5f3a37bc6b97.js": "/viniflix/precache-manifest.726e57712d7fc653e16e5f3a37bc6b97.js",
     "service-worker.js": "/viniflix/service-worker.js",
     "static/css/main.612aa435.chunk.css.map": "/viniflix/static/css/main.612aa435.chunk.css.map",
     "static/js/2.a3757a9e.chunk.js.LICENSE.txt": "/viniflix/static/js/2.a3757a9e.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.cdd4fe46.js",
     "static/js/2.a3757a9e.chunk.js",
     "static/css/main.612aa435.chunk.css",
-    "static/js/main.0167494c.chunk.js"
+    "static/js/main.78b12526.chunk.js"
   ]
 }

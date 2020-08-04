@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/viniflix/precache-manifest.6c1489fbed2d8328ad875e1ebcbb96e4.js"
+  "/viniflix/precache-manifest.726e57712d7fc653e16e5f3a37bc6b97.js"
 );
 
 self.addEventListener('message', (event) => {
